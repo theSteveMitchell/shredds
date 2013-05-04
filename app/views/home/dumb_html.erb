@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wedding</title>
+  <link rel="stylesheet" type="text/css" href="file:///Users/steve/Projects/wedding/app/assets/stylesheets/application.css.scss" />
+
+  <script type=text/javascript src="file:///Users/steve/Projects/wedding/app/assets/javascripts/application.js" ></script>
+</head>
+<body>
+
+<div id="menu">
+  <ul>
+    <li><%= link_to_function "home", '$("#makeMeScrollable").scrollToElement("id", "home");' %></li>
+    <li><a href="#box2">About Us</a></li>
+    <li><a href="#box3">Time and Location</a></li>
+    <li><%= link_to_function "RSVP", '$("#makeMeScrollable").scrollToElement("id", "rsvp");' %></li>
+    <li><a href="#box5">Gift Registry</a></li>
+    <li><a href="#box6">Photos</a></li>
+    <li><a href="#box7">Music</a></li>
+  </ul>
+</div>
+
+
+
+<div id="scroll-area">
+
+
+  <div id="home" class="panel">
+
+    <div class="content">
+      <h3>Emilee & Steve</h3>
+    </div>
+
+
+    <div class="media">
+      <%=  image_tag "box1.png" %>
+
+    </div>
+
+  </div>
+
+
+  <div id="newsletter" class="panel">
+    <h1>About Us</h1>
+    <h2>(who)</h2>
+
+    <p>We are Emilee and Steve.  We are getting married!</p>
+  </div>
+
+
+  <div id="home" class="panel">
+
+    <div class="content">
+      <h3>Emilee & Steve</h3>
+    </div>
+
+
+    <div class="media">
+      <%=  image_tag "box1.png" %>
+
+    </div>
+
+  </div>
+  <div style="clear: left;"></div>
+
+</div>
+
+
+</body>
+
+</body>
+</html>

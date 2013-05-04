@@ -1,0 +1,122 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+@import url(http://www.smoothdivscroll.com/css/smoothDivScroll.css);
+
+#menu {
+  background: image-url('clouds.png') top left;
+  position: fixed;
+  width: 100%;
+  height: 235px;
+  top: 0px;
+  clear: both;
+  float: left;
+  margin: 0;
+  margin-top: 20px;
+  z-index: 500;
+  font-family: 'Pacifico',arial;
+  ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 910px;
+
+    li {
+      display: inline;
+      padding: 0 18px 0 14px;
+
+      a {
+        text-decoration: none;
+        color: #F8D651;
+        text-shadow: #216F74 1px 1px 0px;
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+h1 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 57px;
+  font-weight: lighter;
+  color: #FFFFFF;
+  text-shadow: #216F74 3px 3px 0px;
+  margin: 10px;
+
+}
+h1 #main-title{
+  position:relative;
+  right:100px;
+}
+
+
+h2{
+  font-family: 'Pacifico',cursive;
+  font-weight: lighter;
+  text-shadow: #216F74 3px 3px 0px;
+  margin-top: -40px;
+
+}
+
+p {
+  text-shadow: #216F74 1px 1px 0px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+  width: 100%;
+  margin:  0px;
+  padding: 0px;
+  background-color: #40BED4;
+}
+
+#scroll-area {
+
+
+    position: absolute;
+    bottom:0px;
+    width: 8000px;
+  overflow-y: visible;
+
+  min-height: 706px;
+  background: image-url('bg.jpg') bottom left repeat-x #40BED4;
+}
+
+.panel {
+  width: 1222px;
+  float: left;
+  height: 100%;
+
+
+  img {
+    bottom: 0px;
+    position: absolute;
+
+  }
+
+  div.content {
+    top: 250px;
+    position: relative;
+
+  }
+
+  .media{
+    position:absolute;
+    bottom:00px;
+  }
+
+
+}
+
+

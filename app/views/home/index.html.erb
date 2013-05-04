@@ -1,0 +1,41 @@
+<body>
+
+<div id="menu">
+  <ul>
+    <li><%= link_to_function "home", '$("#makeMeScrollable").scrollToElement("id", "home");' %></li>
+    <li><a href="#box2">About Us</a></li>
+    <li><a href="#box3">Time and Location</a></li>
+    <li><%= link_to_function "RSVP", '$("#makeMeScrollable").scrollToElement("id", "rsvp");' %></li>
+    <li><a href="#box5">Gift Registry</a></li>
+    <li><a href="#box6">Photos</a></li>
+    <li><a href="#box7">Music</a></li>
+  </ul>
+</div>
+
+
+
+<div id="scroll-area">
+
+
+  <%= render :partial => 'intro' %>
+
+
+  <%= render :partial => 'about_us' %>
+
+
+  <!--<%= render :partial => 'details' %>-->
+
+
+  <!--<%= render :partial => 'rsvp' %>-->
+
+
+  <!--<%= render :partial => 'registry' %>-->
+
+
+  <!--<%= render :partial => 'photos' %>-->
+  <!--<div style="clear: left;"></div>-->
+
+    <!--</div>-->
+
+
+</body>
