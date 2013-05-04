@@ -55,9 +55,16 @@ h1 {
   margin: 10px;
 
 }
-h1 #main-title{
+.main-title{
   position:relative;
-  right:100px;
+  left:40px;
+  top: -20px;
+
+}
+
+.ampersand{
+  margin: 40px;
+  background: image-url("ampersand.png");
 }
 
 
