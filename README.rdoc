@@ -1,8 +1,10 @@
-== Shredding for the wedding
+== Shredding,  for the wedding
+Well this was supposed to be a wedding website for http://www.thestevemitchell.com
 
-Well this was supposed to be a wedding website.  It was never published because most of the art content was borrowed and I never did get permission from the creator.  I was going to hire a designer, but meh.  It's a bit too late now that the wedding has come and gone.
+The idea for this site came from http://www.nandayjuandiego.com/  I liked the ccute storybook effect, but 
+the implementation was really bad (ie each page is a single image) .  I had planned to turn it in to a proper web app with gift registry, RSVP, song requests, etc, and then 
+use my own assets, but never had time to finish
 
-"As you know my name is Stephen, and I hate to do drawrings."
+Uses jquery and ScrollTo library to create a cool storybook effect.
 
-
-Has some cool POCs things in there.  Uses jquery and ScrollTo library to create a cool storybook effect.
+Pretty much all the assets are copyright Juan Diego.  I asked for permission but never got an answer yay or nay.  
